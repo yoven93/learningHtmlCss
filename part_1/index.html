@@ -1,0 +1,62 @@
+<!-- It is good to name your homepage as index.html -->
+<!-- This is because when we navigate to a website, it will look for index.html to serve -->
+
+<!DOCTYPE html> <!-- This tells that it is an html document-->
+<html> <!-- The root tag of our document -->
+
+    <!-- Except for the title, nothing is rendered inside the head element-->
+    <!-- This is used to provide meta data -->
+    <head>
+        <title>Simplest Coding</title>
+    </head>
+
+    <!-- The contents of the body elements are rendered on the screen -->
+    <body>
+        <!--
+            1. strong -> bold
+            2. em -> italic
+            3. small -> reduce size a little bit
+            4. span -> doesnt do anything on its own, but can be used to add style.
+        -->
+        <p><span>Hello</span> <strong>Simplest People</strong></p>
+        <p>Welcome <small>to</small> my <em>Blog!</em></p>
+
+        <br><hr><br>
+
+        <!--
+            There are 6 different types of headings (h1 - h6).
+            h1 is the most important to the browser and appears bigger compared to the others.
+            Use the h1 as the page title and h2 as sections, just as writing a word document.
+        -->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <br><hr><br>
+
+        <!--
+            Use the <ul> or the <ol> to display lists.
+            It is the <li> tag that should contain the data.
+        -->
+        <ul>
+            <li>Dog</li>
+            <li>Cat</li>
+            <li>Bird</li>
+        </ul>
+
+        <br><hr><br>
+
+        <!--
+            Image tag
+            Use the src attribute to specify the link to an image.
+        -->
+        <img src="https://image.cnbcfm.com/api/v1/image/105992231-1561667465295gettyimages-521697453.jpeg?v=1561667497&w=678&h=381" 
+            alt="A dog">
+    </body>
+</html>
+
+<!-- If we save an open the index.html, it is going to be opened using the file protocol -->
+<!-- We can also serve the index.html with a server (http protocol). Install liveserver from vc code -->
